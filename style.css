@@ -49,6 +49,14 @@ a:hover {
     transition: all ease .5s;
 }
 
+h1 {
+    font-family: 'New Rocker', cursive;
+    color: rgba(249, 178, 51);
+    text-decoration: none;
+}
+
+
+
 div.container {
     width: 80vw;
     margin: 0 auto;
