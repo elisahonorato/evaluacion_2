@@ -25,12 +25,56 @@
             </footer>
         </div>
 <script>
-     var snitch = L.icon({
-                    iconUrl: "images/snitch.png",
+     var snitch1 = L.icon({
+                    iconUrl: "images/snitch_snitch-01.png",
                     iconSize: [40, 40],
                     iconAnchor: [0, 0],
                     popupAnchor: [0, 0]
                 });
+     var snitch2 = L.icon({
+                    iconUrl: "images/snitch_snitch-02.png",
+                    iconSize: [40, 40],
+                    iconAnchor: [0, 0],
+                    popupAnchor: [0, 0]
+                });
+     var snitch3 = L.icon({
+                    iconUrl: "images/snitch_snitch-03.png",
+                    iconSize: [40, 40],
+                    iconAnchor: [0, 0],
+                    popupAnchor: [0, 0]
+                });
+     var snitch4 = L.icon({
+                    iconUrl: "images/snitch_snitch-04.png",
+                    iconSize: [40, 40],
+                    iconAnchor: [0, 0],
+                    popupAnchor: [0, 0]
+                });
+     var snitch5 = L.icon({
+                    iconUrl: "images/snitch_snitch-05.png",
+                    iconSize: [40, 40],
+                    iconAnchor: [0, 0],
+                    popupAnchor: [0, 0]
+                });
+     var snitch6 = L.icon({
+                    iconUrl: "images/snitch_snitch-06.png",
+                    iconSize: [40, 40],
+                    iconAnchor: [0, 0],
+                    popupAnchor: [0, 0]
+                });
+     var snitch7 = L.icon({
+                    iconUrl: "images/snitch_snitch-07.png",
+                    iconSize: [40, 40],
+                    iconAnchor: [0, 0],
+                    popupAnchor: [0, 0]
+                });
+     var snitch8 = L.icon({
+                    iconUrl: "images/snitch_snitch-08.png",
+                    iconSize: [40, 40],
+                    iconAnchor: [0, 0],
+                    popupAnchor: [0, 0]
+                });
+
+
     var mymap = L.map('mapa').setView([54.400654, -0.712124], 5);
     L.tileLayer('https://api.mapbox.com/styles/v1/{id}/tiles/{z}/{x}/{y}?access_token=pk.eyJ1IjoibWFwYm94IiwiYSI6ImNpejY4NXVycTA2emYycXBndHRqcmZ3N3gifQ.rJcFIG214AriISLbB6B5aw', {
         maxZoom: 18,
@@ -38,16 +82,16 @@
         tileSize: 512,
         zoomOffset: -1
     }).addTo(mymap);
-    L.marker([54.400654, -0.712124],{icon: snitch}).addTo(mymap).bindPopup("<b>1</b>. Harry Potter y La Piedra Filosofal.");
+    L.marker([54.400654, -0.712124],{icon: snitch1}).addTo(mymap).bindPopup("<b>1</b>. Harry Potter y La Piedra Filosofal.");
 
-    L.marker([55.41575, -1.70607],{icon: snitch}).addTo(mymap).bindPopup("<b>2</b>. Harry Potter y La Cámara Secreta.");
-    L.marker([57, -5],{icon: snitch}).addTo(mymap).bindPopup("<b>3</b>. Harry Potter y El Prisionero de Azkaban");
-    L.marker([56.866667, -5.45],{icon: snitch}).addTo(mymap).bindPopup("<b>4</b>. Harry Potter y El Cáliz de Fuego");
-    L.marker([51.531111, -0.110278],{icon: snitch}).addTo(mymap).bindPopup("<b>5</b>. Harry Potter y La Orden del Fénix.");
-    L.marker([56.7602, -4.6907],{icon: snitch}).addTo(mymap).bindPopup("<b>6</b>. Harry Potter El Misterio Del Príncipe");
+    L.marker([55.41575, -1.70607],{icon: snitch2}).addTo(mymap).bindPopup("<b>2</b>. Harry Potter y La Cámara Secreta.");
+    L.marker([57, -5],{icon: snitch3}).addTo(mymap).bindPopup("<b>3</b>. Harry Potter y El Prisionero de Azkaban");
+    L.marker([56.866667, -5.45],{icon: snitch4}).addTo(mymap).bindPopup("<b>4</b>. Harry Potter y El Cáliz de Fuego");
+    L.marker([51.531111, -0.110278],{icon: snitch5}).addTo(mymap).bindPopup("<b>5</b>. Harry Potter y La Orden del Fénix.");
+    L.marker([56.7602, -4.6907],{icon: snitch6}).addTo(mymap).bindPopup("<b>6</b>. Harry Potter El Misterio Del Príncipe");
     L.marker([53.1688, -1.3088
-],{icon: snitch}).addTo(mymap).bindPopup("<b>7</b>. Harry Potter y las reliquias de la Muerte: parte 1");
-    L.marker([56.966, -5.134],{icon: snitch}).addTo(mymap).bindPopup("<b>8</b>. Harry Potter y las reliquias de la Muerte: parte 2");
+],{icon: snitch7}).addTo(mymap).bindPopup("<b>7</b>. Harry Potter y las reliquias de la Muerte: parte 1");
+    L.marker([56.966, -5.134],{icon: 8}).addTo(mymap).bindPopup("<b>8</b>. Harry Potter y las reliquias de la Muerte: parte 2");
 </script>
     </body>
 </html>
