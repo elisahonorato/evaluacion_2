@@ -50,8 +50,8 @@ a:hover {
 }
 
 h1 {
-    font-family: 'New Rocker', cursive;
-    color: rgba(249, 178, 51);
+    font-family: 'Cinzel Decorative', cursive;
+    color: var(--figura);
     text-decoration: none;
 }
 
