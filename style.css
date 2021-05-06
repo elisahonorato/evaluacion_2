@@ -2,7 +2,8 @@
 @charset "UTF-8";
 
 
-
+@import url('https://fonts.googleapis.com/css2?family=Cinzel+Decorative:wght@700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display&display=swap');
 
 :root{
     --fondo: #090c2b;
@@ -16,7 +17,7 @@
 
 body {
     
-    font-family: 'Playfair Display', serif;
+     font-family: 'Playfair Display', serif;
     background: var(--fondo);
     color: var(--figura);
 }
@@ -35,6 +36,9 @@ a {
     font-weight: bold;
     color: rgba(255, 255, 255, 0.5);
     text-decoration: none;
+    font-family: 'Cinzel Decorative', cursive;
+   
+
 }
 
 a:hover {
@@ -56,7 +60,6 @@ nav, footer {
     margin-right:1%;
     min-height: 10vh;
     display: flex;
-    font-family: 'Tangerine', cursive;
 }
 
 nav p, footer p {
@@ -118,7 +121,7 @@ main{
 main article{
     float:left;
     margin:1%;
-    width:22%;
+    width:18%;
     background:rgba(255,255,255,0.1);
 }
 
@@ -195,11 +198,10 @@ main div#mapa{
     margin:1%;
     width:98%;
     height:60vh;
-    font-family: 'Tangerine', cursive;
+    
 }
 
 main canvas#grafico{
-    font-family: 'Tangerine', cursive;
     background:#000;
 
 }
