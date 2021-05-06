@@ -33,9 +33,15 @@ var myChart = new Chart(ctx, {
             label: 'Recaudación en millones de dólares a nivel mundial, en el primer año de cada película.',
             data: [974,878,796,896,939,934,960,1341],
             backgroundColor: 'rgba(245, 210, 165, 0.8)',
-            borderWidth: 0
+            order:1
+        },{
+            label: 'Ranking relativo (en puntos IMDB multiplicado por 100)',
+            data: [750, 810, 770, 790, 770, 740, 760, 760],
+            backgroundColor: 'rgba(255,250,250, 0.75)',
+            order:2
         }]
     },
+
     options: {
         scales: {
             y: {
